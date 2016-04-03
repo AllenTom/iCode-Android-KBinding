@@ -29,7 +29,7 @@ import com.rayfantasy.icode.R
 import com.rayfantasy.icode.theme.ThemeModel
 import com.rayfantasy.icode.ui.fragment.AboutFragment
 import com.rayfantasy.icode.ui.fragment.CodeListFragment
-import com.rayfantasy.icode.ui.layout.MainActivityUI
+import com.rayfantasy.icode.ui.layout.activity.MainActivityUI
 import org.jetbrains.anko.configuration
 import kotlin.properties.Delegates
 

@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.rayfantasy.icode.ui.layout
+package com.rayfantasy.icode.ui.layout.activity
 
 import android.os.Build
 import android.support.design.widget.AppBarLayout
@@ -94,7 +94,10 @@ class MainActivityUI : ViewBinderComponent<MainActivity> {
             navigationView {
                 fitsSystemWindows = true
                 inflateMenu(R.menu.nv_menu)
+
                 bind { itemSelected("changeFragment") { drawer.closeDrawer(this) } }
+                //observe(colorPrimary){nv_bg.backgroundColor = it}
+
             }.lparams(wrapContent, matchParent) {
                 gravity = GravityCompat.START
             }
